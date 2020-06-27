@@ -1,0 +1,20 @@
+@import "variables";
+
+.input {
+  label {
+    display: block;
+  }
+
+  input {
+    padding: 10px 0;
+    background-color: $body-bg;
+    border: none;
+    border-bottom: solid 1px gray;
+    display: block;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
